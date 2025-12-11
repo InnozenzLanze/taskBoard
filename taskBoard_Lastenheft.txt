@@ -1,0 +1,76 @@
+Lastenheft RaidSimulation
+Quelle: 
+1. 	"Anwendungsentwicklung in Theorie und Praxis" 
+	Bildungsverlag EINS westermann, 1.Auflage, 2019
+2.	Unterrichtsbegleitendes Material; Aufgabenstellung
+	
+/Version/Datum/Kommentar
+/1.0_thatch/2025-12-11/erstellt
+
+1.Ziel
+/Nr/Bezeichnung
+/LZ010/ Anwendung soll dem Anwender ermöglichen, eigene Aufgaben zu organisieren. 
+
+2.Rahmenbedingungen
+/Nr/Bezeichnung
+/LR010/ Unterrichtsbegleitendes Projekt 
+/LR011/ über die Dauer des Lernfeldes 10, 11
+/LR020/ Lernziel: Anforderungen definieren 
+/LR021/ grafische Dokumentation via verschiedenen UML-Diagrammen
+/LR030/ Lernziel: Architekturmuster und UI-Arten
+/LR031/ Wireframes
+/LR040/ Lernziel: Grundlegende Datenstrukturen 
+/LR041/	Algorithmus 
+/LR042/	Programmablaufplan
+
+3.Kontext und Überblick
+/LK010/ - ausstehend - 
+/LK020/ 
+
+4.1.Funktionale Anforderungen
+Die Anwendung soll...
+
+/Nr/Bezeichnung
+/LFA010/ dem Anwender ermöglichen, Aufgaben in Form von Tickets anzulegen.
+/LFA011/ Jedes Ticket hat einen Titel und eine Beschreibung.
+/LFA020/ dem Anwender ermöglichen, Aufgaben nach Ihrer Wichtigkeit zu kennzeichnen oder zu priorisieren.
+/LFA030/ eine Übersicht über alle vorhandenen Tickets anzeigen.
+/LFA031/ eine gefilterte Übersicht über alle vorhandenen Tickets anzeigen.
+/LFA032/ dem Anwender ermöglichen, nach einem bestimmten Ticket zu suchen.
+/LFA040/ dem Anwender erlauben erledigte Tickets entsprechend zu markieren oder zu löschen.
+
+4.2.Nicht-funktionale Anforderungen
+Die Anwendung soll...
+
+/Nr/Bezeichnung
+/LNFA010/ dem Anwender ermöglichen ein Ticket in unter 3 KLicks anlegen zu können.
+/LNFA011/ gespeicherte Tickets auch nach Schließen und erneutem Öffnen erhalten. 
+
+4.3.weiter geplante Features:
+/Nr/Bezeichnung
+/LFB010/ 1.0_thatch; aktuelle Version 
+/LFB020/ 1.1_wood
+/LFB030/ 1.2_stone
+/LFB040/ 1.3_metal
+/LFB050/ 1.4_tek
+
+5.Qualitätsanforderungen
+/Nr/Bezeichnung
+
+Reaktionszeit:
+/LQ001/ Die Reaktionszeit auf Benutzereingaben beträgt 
+	<200ms für einfache Aktionen.
+
+Systemqualität/(sehr gut, gut, normal, nicht relevant):
+/LQ002/Funktionalität/ gut
+/LQ003/Zuverlässigkeit/ sehr gut
+/LQ004/Benutzbarkeit/ sehr gut
+/LQ005/Effizienz/ normal
+/LQ006/Änderbarkeit/ normal
+/LQ007/Übertragbarkeit/ nicht relevant
+
+6.Glossar
+Benutzer: ______Anwender, der die Aufgaben anlegt und verwaltet
+Aufgabe: _______Tätigkeit mit Titel und Beschreibung, die vom Benutzer in Ticketform angelegt wurde
+		und verwaltet wird. 
+
