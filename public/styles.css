@@ -1,0 +1,45 @@
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, p {
+    font-family: Arial;
+}
+
+table, th, td {
+    font-family: Arial;
+    border: thin solid #a0a0a0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: thin 0 0 thin;
+    margin: 0 0 1em;
+    table-layout: auto;
+}
+
+#Liste {
+    width: 100%;
+}
+
+tbody tr:hover {
+    background-color: #fffbf0;
+}
+
+th, td {
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f3f4;
+    font-weight: 700;
+}
+
+#Icon {
+    width: 40px;
+}
+
+
