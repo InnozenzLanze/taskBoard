@@ -6,12 +6,9 @@
     <link rel="stylesheet" href="public/styles.css" />
     <title>Taskboard</title>
     <!--
-        border für Übersicht Konstruktion. später über css
         Checkbox zum markieren der Aufgaben
-                    
-            Datei Neu immer möglich
-            if 1 Bearbeiten möglich und Löschen möglich
-            if >1 Löschen möglich, aber kein Bearbeiten
+            if >1 Löschen möglich
+
         Prio Kreis eingefärbt 
             rot = 1
             gelb = 2
@@ -20,8 +17,10 @@
 </head>
 <body>
     <header>
-        <img src="" alt="Logo">
-        <h1>Taskboard</h1>
+        <div>
+            <img src="" alt="Logo">
+            <h1>Taskboard</h1>
+        </div>
         <div>
             <button id="Icon">
                 <!--Auswahl Löschen-->
@@ -118,7 +117,7 @@
     </main>
     <footer>
             <p>(c) 2026</p>
-            <button type="button">Beenden</button>
+            <button type="button">Beenden</button><!--sinnig?-->
     </footer>
 </body>
 </html>

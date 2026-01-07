@@ -3,19 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/styles.css" />
-    <title>Neue Aufgabe anlegen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Neue Aufgabe hinzufügen</title>
+    <!--
+        Vorlage für Aufgabe bearbeiten
+
+        Vorlage für i -> Detailansicht
+            ->button Piktogramm Bearbeiten
+            ->Button "Detailansicht schließen" oder X
+    -->
 </head>
+<header>
+     <div>
+        <img src="" alt="Logo">
+        <h1>Taskboard</h1>
+    </div>
+</header>
 <body>
-    <div id="inputtext">
-        <input type="date" id="termin" name="Termin">
-        <label for="termin">Termin</label>
+    <div>
+        <h2>neue Aufgabe hinzufügen</h2>
+        <p>*Pflichtfelder</p>
     </div>
+
     <div id="inputtext">
-        <input type="text" id="beschreibung" name="Beschreibung">
-        <label for="termin">Beschreibung</label>
+        <label for="kw">KW</label>
+        <label for="kw">NN</label><!--automatisch via js-->
+
+        <input type="date" id="termin" name="Termin"> <br>
+        <label for="termin">Termin*</label> 
     </div>
-    <div id="radio">
+    <br><!--via css-->
+    <div id="inputtext">
+        <input type="text" id="bezeichnung" name="Bezeichnung"> <br>
+        <label for="termin">Bezeichnung*</label> 
+    </div>
+    <br><!--via css-->
+    <div id="radio"> <!--checked via js-->
+        <label for="termin">Priorität: </label> <br>
         <input type="radio" id="prio1" name="prioritaet" value="Prio 1">
         <label for="prio1">Prio 1</label>
         
@@ -25,5 +49,18 @@
         <input type="radio" id="prio3" name="prioritaet" value="Prio 3">
         <label for="prio3">Prio 3</label>
     </div>
+    <br><!--via css-->
+    <div id="inputtext_large">
+        <label for="termin">Beschreibung: </label> <br>
+        <input type="text" id="beschreibung" name="Beschreibung">
+    </div>
+    <br><!--via css-->
+    <div>
+        <button type:"button">speichern</button>
+        <button type:"button">abbrechen</button>
+    </div>
 </body>
+<footer>
+
+</footer>
 </html>
