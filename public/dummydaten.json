@@ -1,0 +1,26 @@
+[
+    {
+        "termin": "2025-01-10",
+        "bezeichnung": "Müll rausbringen",
+        "prioritaet": "prio3",
+        "beschreibung": "Noch einmal alle Ablagen prüfen (besonders Küche!)"
+    },
+    {
+        "termin": "2025-01-11",
+        "bezeichnung": "Leon bei Hausaufgaben helfen",
+        "prioritaet": "prio1",
+        "beschreibung": "Buch für Vorstellung raussuchen (14 Jahre, irgendwas mit Comming of Age)"
+    },
+    {
+        "termin": "2025-02-01",
+        "bezeichnung": "Miete Überweisen",
+        "prioritaet": "prio1",
+        "beschreibung": "Dauerauftrag anlegen?"
+    },
+    {
+        "termin": "2025-01-10",
+        "bezeichnung": "Kuchen backen",
+        "prioritaet": "prio2",
+        "beschreibung": "Glutenfrei, Vegan!"
+    }
+]
