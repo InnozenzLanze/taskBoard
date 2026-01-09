@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/styles.css" />
-    <script src="public/taskboard.js"></script>
+    <!--JavaScript Einbettung am Ende vom body-->
     <title>Taskboard</title>
     <!--
         Checkbox zum markieren der Aufgaben
@@ -72,8 +72,8 @@
                             value=""
                         >
                     </td>
-                    <td><!--Prio-->
-                        <svg 
+                    <td id="prio"><!--Prio-->
+                        <svg id="circle"
                             width="30"
                             viewBox="0 0 24 24" 
                             fill="currentColor" 
@@ -83,10 +83,10 @@
                             />
                         </svg>
                     </td> 
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>
+                    <td id="kw"> </td>
+                    <td id="termin"> </td>
+                    <td id="bezeichnung"> </td>
+                    <td> <!--buttons-->
                         <!--Details/Info-->
                         <button id="Icon">
                             <svg 
@@ -120,5 +120,7 @@
             <p>(c) 2026</p>
             <button type="button">Beenden</button><!--sinnig?-->
     </footer>
+    <!--JavaScript Einbettung-->
+    <script src="public/taskboard.js"></script>
 </body>
 </html>
