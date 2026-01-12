@@ -1,4 +1,4 @@
-console.log("asfwjsiogas<gvjesioaj")
+console.log("asfwjsiogas<gvjesioaj") //test
 
 let tickets = [ //später aus dummydaten.json
     {
@@ -57,3 +57,8 @@ termin.innerHTML = ticket1.termin;
 let bezeichnung = document.getElementById("bezeichnung");
 bezeichnung.innerHTML = ticket1.bezeichnung;
 
+/*function für Berechnung KW
+1. Startdatum setzen bspw 01.Januar 1950 Sonntag
+2. Definition Schaltjahre
+3. ab 1KW Montag +7 Tage KW+, nach KW52 wieder KW1
+*/
