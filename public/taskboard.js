@@ -27,17 +27,7 @@ let tickets = [ //später aus dummydaten.json
     }
 ];
 
-/*
-function priosetzen()
-switch (prio)
-    case prio1 dann svg rot, break
-    case prio2 dann svg gelb, break
-    case prio3 dann svg grün, break
-
-*/
-const circle = document.getElementById("circle");
-circle.setAttribute("fill","#FF0000");
-
+//_____Deklaration Initialisierung Dummy
 let ticket1 = {
     termin: "2026-01-20",
     bezeichnung: "Socken sortieren",
@@ -45,17 +35,43 @@ let ticket1 = {
     beschreibung: "Socken paarweise sortieren. Die mit Loch wegwerfen"
 };
 
+//_____Ausgabe
 /*
 next: 
 1. function für Datenübertragung
 2. Schleife für tickets
 */
 
-let termin = document.getElementById("termin");
+const termin = document.getElementById("termin");
 termin.innerHTML = ticket1.termin;
 
-let bezeichnung = document.getElementById("bezeichnung");
+const bezeichnung = document.getElementById("bezeichnung");
 bezeichnung.innerHTML = ticket1.bezeichnung;
+
+/*
+switch (prio)
+    case prio1 dann svg rot, break
+    case prio2 dann svg gelb, break
+    case prio3 dann svg (grün) [alternativ blau -> rotgrünblindheit], break
+    default keine priorität setzen ermöglichen
+*/
+
+const prioritaet = document.getElementById("prioritaet");
+
+const circle = document.getElementById("circle");
+switch(ticket1.prioritaet) {
+    case "prio1":
+        circle.setAttribute("fill","#FF0000");
+        break;
+    case "prio2":
+        circle.setAttribute("fill","#FFD700"); 
+        break; 
+    case "prio3":
+        circle.setAttribute("fill","#4169E1"); 
+        break;  
+    default:
+        circle.setAttribute("fill", "currentColour")
+}
 
 /*function für Berechnung KW
 1. Startdatum setzen bspw 01.Januar 1950 Sonntag
