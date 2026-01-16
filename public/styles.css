@@ -1,8 +1,3 @@
-/* 
-. für Klasse
-# für ID
- */
-
 header, footer {
     display: flex;
     justify-content: space-between;
@@ -47,20 +42,4 @@ th {
     width: 40px;
 }
 
-/*
-    circle
-    prio1 dann svg rot, break
-    prio2 dann svg gelb, break
-    prio3 dann svg (grün) [alternativ blau -> rotgrünblindheit]
-*/
-.prio1 {  
-    fill: #FF0000;
-}
 
-.prio2 {
-    fill: #FFD700;
-}
-
-.prio3 {
-   fill: #4169E1
-}
